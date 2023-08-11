@@ -1,0 +1,58 @@
+.nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: 1rem;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.nav-ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-ul li a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-ul {
+    padding: 15px;
+    margin: 0;
+    background-color: #252525;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.logo {
+    width: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+@media only screen and (max-width: 786px) {
+    .logo {
+        margin-top: 10px;
+    }
+
+    .nav-ul {
+        padding: 26px;
+    }
+
+}
+
+@media only screen and (min-width: 786px) {
+    .nav-ul {
+        padding: 18px;
+    }
+}
