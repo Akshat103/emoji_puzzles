@@ -39,7 +39,7 @@ const Card = () => {
                         className={`card ${showSolution ? 'show-solution' : ''}`}
                         onClick={toggleSolution}
                     >
-                        {currentEmojiData.emojiPuzzle}
+                        <pre>{currentEmojiData.emojiPuzzle}</pre>
                     </div>
                     <div className="arrows">
                         <span className="arrow" onClick={handleNextEmoji}>
